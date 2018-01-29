@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+{{ $data := index .Site.Data .Site.Language.Lang }}
+<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
+    <head>
+        {{ partial "head.html" . }}
+    </head>
+    <body id="page-top">
+        {{ if or .Site.Params.navigation.links.about .Site.Params.navigation.links.reasons .Site.Params.navigation.links.resources .Site.Params.navigation.links.contact }}
+            {{ partial "nav.html" . }}
+        {{ end }}
+
+        {{ if .Site.Params.start }}
+            {{ partial "start.html" . }}
+        {{ end }}
+
+        {{ if .Site.Params.about }}
+            {{ partial "about.html" . }}
+        {{ end }}
+
+        {{ if .Site.Params.arguments.list }}
+            {{ partial "arguments.html" . }}
+        {{ end }}
+
+        {{ if .Site.Params.action }}
+            {{ partial "action.html" . }}
+        {{ end }}
+
+        {{ if .Site.Params.organisations }}
+            {{ partial "organisations.html" . }}
+        {{ end }}
+
+        <!-- Can be used later
+        {{ if .Site.Params.resources }}
+            {{ partial "resources.html" . }}
+        {{ end }}
+        -->
+
+        {{ if .Site.Params.spread }}
+            {{ partial "spread.html" . }}
+        {{ end }}
+        
+        {{ if .Site.Params.language }}
+            {{ partial "language.html" . }}
+        {{ end }}
+        
+        {{ partial "legal.html" . }}
+        
+        {{ partial "sharecolumn.html" . }}
+        
+        {{ partial "action-box.html" . }}
+
+        {{ partial "js.html" . }}
+    </body>
+</html>

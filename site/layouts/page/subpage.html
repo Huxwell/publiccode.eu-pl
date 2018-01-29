@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
+    <head>
+        {{ partial "head.html" . }}
+    </head>
+    <body id="page-top">
+        {{ partial "sub-pages/navbar.html" . }}
+
+        {{ partial "sub-pages/section_begin.html" . }}
+
+        <h1>{{ .Params.Title }}</h1>
+        
+        <hr />
+        
+        {{ .Content }}
+        
+        {{ partial "sub-pages/section_end.html" . }}
+        
+        {{ if eq .Params.sigtable true }}
+          {{ partial "sub-pages/action.html" . }}
+          {{ partial "organisations.html" . }}
+          {{ partial "sub-pages/sigtable.html" . }}
+        {{ end }}
+        
+        {{ partial "language.html" . }}
+        
+        {{ partial "legal.html" . }}
+        
+        {{ partial "sharecolumn.html" . }}
+
+        {{ partial "js.html" . }}
+    </body>
+</html>

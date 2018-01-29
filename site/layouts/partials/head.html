@@ -1,0 +1,61 @@
+{{ "<!-- Build time: " | safeHTML }}{{now}}{{ "-->" | safeHTML }}
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+{{ with .Site.Params.static.meta.author }}<meta name="author" content="{{ . }}">{{ end }}
+{{ with .Site.Params.description }}<meta name="description" content="{{ . }}">{{ end }}
+<meta name="keywords" content="Public Money, Public Code, #publiccode, campaign, Free Software, Open Source, FOSS, FLOSS, public administration, FOI, open letter, petition, PMPC">
+{{ .Hugo.Generator }}
+<title>{{ with .Params.Title }}{{ . }} - {{ end }}{{ .Site.Title }}</title>
+{{ "<!-- Translations -->" | safeHTML }}
+<link type="text/html" rel="alternate" hreflang="{{ .Lang }}" lang="{{ .Lang }}" href="{{ .RelPermalink }}" title="{{ .Site.Params.languageName }}">
+{{ range .Translations }}
+  <link type="text/html" rel="alternate" hreflang="{{ .Lang }}" lang="{{ .Lang }}" href="{{ .RelPermalink }}" title="{{ .Site.Params.languageName }}">
+{{end}}
+
+{{ "<!-- Open Graph meta-data (e.g. Facebook) -->" | safeHTML }}
+<meta property="og:title" content="{{ .Site.Title }}"/>
+<meta property="og:url" content="{{ .Site.Params.static.url }}{{ "/" | relLangURL }}"/>
+<meta property="og:image" content="{{ .Site.Params.static.url }}/{{ .Site.Params.static.meta.previewImage }}"/>
+<meta property="og:description" content="{{ .Site.Params.description }}"/>
+<meta property="og:locale" content="{{ .Lang }}"/>
+{{ range .Translations }}
+<meta property="og:locale:alternate" content="{{.Lang }}"/>{{ end }}
+
+{{ "<!-- Twitter meta-data -->" | safeHTML }}
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:site" content="{{ .Site.Params.static.meta.twitterUser }}"/>
+<meta name="twitter:title" content="{{ .Site.Title }}"/>
+<meta name="twitter:description" content="{{ .Site.Params.description }}"/>
+<meta name="twitter:image" content="{{ .Site.Params.static.url }}/{{ .Site.Params.static.meta.previewImage }}"/>
+<meta name="twitter:url" content="{{ .Site.Params.static.url }}{{ "/" | relLangURL }}"/>
+<meta name="twitter:creator" content="{{ .Site.Params.static.meta.twitterUser }}"/>
+
+{{ "<!-- Favicon -->" | safeHTML }}
+<link rel="icon" type="image/png" href="{{ "favicon.png" | absURL }}" sizes="128x128">
+{{ "<!-- Bootstrap Core CSS -->" | safeHTML }}
+<link rel="stylesheet" href="{{ "css/bootstrap.min.css" | absURL }}" type="text/css">
+{{ "<!-- Custom Fonts -->" | safeHTML }}
+<link rel="stylesheet" href="{{ "css/fonts.css" | absURL }}" type="text/css">
+<link rel="stylesheet" href="{{ "font-awesome/css/font-awesome.min.css" | absURL }}" type="text/css">
+{{ "<!-- Plugin CSS -->" | safeHTML }}
+<link rel="stylesheet" href="{{ "css/animate.min.css" | absURL }}" type="text/css">
+{{ "<!-- Custom CSS -->" | safeHTML }}
+<link rel="stylesheet" href="{{ "css/creative.css" | absURL }}" type="text/css">
+<link rel="stylesheet" href="{{ "css/custom.css" | absURL }}" type="text/css">
+<link rel="stylesheet" href="{{ "css/buttons-spread.css" | absURL }}" type="text/css">
+<link rel="stylesheet" href="{{ "css/buttons-side.css" | absURL }}" type="text/css">
+{{ "<!-- CSS with JS disabled -->" | safeHTML }}
+<noscript>
+<link rel="stylesheet" href="{{ "css/no-javascript.css" | absURL }}" type="text/css">
+</noscript>
+
+<!-- Google webmaster tools verification -->
+<meta name="google-site-verification" content="w3YbMtsGJlDG25xOStnBvqmoJ2s3GXPEy4ckJSvSISs" />
+
+{{ "<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->" | safeHTML }}
+{{ "<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->" | safeHTML }}
+{{ "<!--[if lt IE 9]>" | safeHTML }}
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+{{ "<![endif]-->" | safeHTML }}

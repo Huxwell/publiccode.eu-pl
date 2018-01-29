@@ -1,0 +1,19 @@
+{{ "<!-- LEGAL -->" | safeHTML }}
+<section id="legal">
+  <div class="text-center">
+    <h2 class="hidden">Legal Information</h2>
+    <p>{{ .Site.Params.legal.contribute1 }} <a href="https://git.fsfe.org/pmpc/website" target="_blank">{{ .Site.Params.legal.contribute2 }}</a></p>
+    <p>{{ .Site.Params.legal.by }} (<a href="https://fsfe.org/index.{{ .Lang }}.html" target="_blank">FSFE</a>) 
+    – <a href="https://fsfe.org/about/legal/imprint.{{ .Lang }}.html" target="_blank">{{ .Site.Params.legal.imprint }}</a> 
+    | <a href="{{ "privacy/" | relLangURL }}">{{ .Site.Params.legal.privacy }}</a> 
+    | <a href="https://fsfe.org/about/transparency-commitment.{{ .Lang }}.html" target="_blank">{{ .Site.Params.legal.transparency }}</a> 
+    – Copyright &copy; {{ (now).Year }}</p>
+    <p>{{ .Site.Params.legal.license | markdownify }}</p>
+  </div>
+</section>
+
+<a class="page-scroll hiddenlink" href="#page-top" title="Scroll to top">
+  <div id="scroll-to-top">
+    <i class="fa fa-chevron-up" aria-hidden="true"></i>
+  </div>
+</a>

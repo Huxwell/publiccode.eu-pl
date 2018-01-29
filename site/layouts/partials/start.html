@@ -1,0 +1,30 @@
+{{ "<!-- HEADER -->" | safeHTML }}
+<header>
+    <div class="header-content">
+        <div class="header-content-inner">
+            <div class="logo">
+                <img src="/img/logo.svg" alt="{{ .Site.Params.static.slogan_1 }}, {{ .Site.Params.static.slogan_2 }}" />
+                <h1 id="start">
+                    <span class="logo-blue">{{ .Site.Params.static.slogan_1 }}</span>
+                    <span class="logo-green">{{ .Site.Params.static.slogan_2 }}</span>
+                </h1>
+                {{ with .Site.Params.start.fsfe }}<h2 id="start">{{ . }}</h2>{{ end }}
+            </div>
+
+            {{ if and .Site.Params.static.slogan_1 .Site.Params.start.subtitle1 }}
+                <hr />
+            {{ end }}
+            <p>{{ with .Site.Params.start.subtitle1 }}{{ . | markdownify }}{{ end }}
+            <br /><br />
+            {{ with .Site.Params.start.subtitle2 }}{{ . | markdownify }}{{ end }}
+            <br /><br />
+            {{ with .Site.Params.start.subtitle3 }}{{ . | markdownify }}{{ end }}</p>
+            {{ with .Site.Params.start.buttonText }}
+                <!--<a href="#about" class="btn btn-primary btn-xl page-scroll">{{ . }}</a>-->
+            {{ end }}
+            <div class="arrow-bounce">
+              <a class="fa fa-chevron-down fa-3x hiddenlink page-scroll" href="#about"></a>
+            </div>
+        </div>
+    </div>
+</header>

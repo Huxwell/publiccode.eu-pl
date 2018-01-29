@@ -1,0 +1,34 @@
+{{ "<!-- ORGANISATIONS -->" | safeHTML }}
+<section id="organisations">
+    <div class="container">
+      <div class="text-center">
+        <h2 class="section-heading">{{ .Site.Params.organisations.headline }}</h2>
+        <hr />
+        <!-- replace the URL defined in config.toml because this snipped is used in sub-pages too -->
+        <p>{{ replace .Site.Params.organisations.text "openletter/" ("/openletter" | relLangURL)  | markdownify }}</p>
+        <div class="expand" tabindex="0">
+          <i class="fa fa-share" aria-hidden="true"></i>
+        </div>
+        <div class="orgs">
+          <ul>
+            {{ $orgs := getJSON "data/organisations/organisations.json" }}
+            {{ $lower := sort $orgs "name" }}
+            {{ $.Scratch.Set "lower_names" (slice) }}
+            {{ range $lower }}
+              {{ $.Scratch.Add "lower_names" (lower .name) }}
+            {{ end }}
+            
+            {{ range shuffle ($.Scratch.Get "lower_names") }}
+
+              {{ $lower_int := . }}
+              {{ range $int := $orgs }}
+                {{ if eq $lower_int (lower $int.name) }}
+                  <li><a href="{{ .url }}" class="hiddenlink" title="{{ .name }}" style="background-image: url(/img/organisations/{{ .img }})" target="_blank"></a></li>
+                {{ end }}
+              {{ end }}
+            {{ end }}
+          </ul>
+        </div>
+      </div>
+    </div>
+</section>
