@@ -1,21 +1,17 @@
 ---
-title: "Privacy Policy"
+title: "Polityka Prywatności"
 type: "page"
 layout: "subpage"
 ---
 
-The **publiccode.eu** web site is run by the
+Strona **publiccode.eu** jest prowadzona przez
 [FSFE e.V.](https://fsfe.org/about/legal/imprint.html)
-When this policy refers to "we", this means the FSFE.
+Kiedy w poniższym dokumencie piszemy "my", mamy myśli FSFE.
 
-## What we collect and why
+## Jakie dane zbieramy i dlaczego?
 
-When you use the website to sign our open letter, we collect
-and store information about your name, e-mail address and country,
-which you have provided with your consent. We will publicly
-show your name as a signee to the open letter if you consented 
-to publicly show name in the [list of 
-signatures](/openletter/all-signatures). We will also
+Podczas gdy wykorzystujesz niniejszą stronę do podpisania naszego otwartego listu, zbieramy i przechowujemy informacje o Twoim imieniu i nazwisku, adresie email, kraju pochodzenia które podajesz w trakcie składania podpisu.
+Zamieścimy Twoje nazwisko publicznie jako sygnatariusza listu, jeśli wyraziłeś na to zgodę na stronie [Lista Sygnatariuszy](/openletter/all-signatures). We will also
 provide your name and country to the recipients of the open
 letter (members of the European Parliament and national or
 regional parliaments). We will not share your e-mail address.
