@@ -11,7 +11,7 @@ W poniższym dokumencie, gdy używamy słowa "my" mamy na myśli FSFE.
 ## Jakie dane zbieramy i dlaczego
 Gdy użyjesz niniejszej strony do podpisania listu otwartego, zaczniemy przechowywać Twoje imię, nazwisko, adres email, oraz państwo zamieszkania. Jeśli wyrazisz na to zgodę, wyświetlimy publicznie Twoje imię i nazwisko jako sygnatariusza listu otwartego pod adresem [list of signatures](/openletter/all-signatures). Poza tym, udostępnimy Twoje imię i nazwisko oraz państwo zamieszkania odbiorcom listu otwartego (członkom Parlamentu Europejskiego oraz parlamentów regionalnych i narodowych). Nie będziemy udostępniać Twojego adresu email. Dane te będziemy przechowywać w naszej bazie danych do końca trwania kampanii Puliczne Pieniądze - Publiczny Kod po czym zostaną one usunięte.
 
-Jeśli wyrazisz zgodę na kontakt w sprawie kampani, wykorzystamy Twój adres email do wysyłania Ci informacji na jej temat w trakcie jej trwania oraz niezwłocznie po jej zakończeniu.
+Jeśli wyrazisz zgodę na kontakt w sprawie kampanii, wykorzystamy Twój adres email do wysyłania Ci informacji na jej temat w trakcie jej trwania oraz niezwłocznie po jej zakończeniu.
 
 ## Kto ma dostęp do przechowywanych danych
 
@@ -19,18 +19,8 @@ Do danych wysłane za pomocą niniejszej strony, przechowywanych na serwerach b
 
 ## Twoje prawa
 
-You have the right to receive the personal data we have stored
-about you, as well as the right to instruct us to rectify it if
-it's incorrect. You also have the right to object to our storing
-of information, in which case we will remove personal data about
-you, and the right to remove your consent to processing of your
-personal data in line with this policy, in which case we will
-also take steps to remove personal data about you. 
+Masz prawo do wglądu do prywatnych danych które przechowujemy na Twój temat, a także prawo do sprostowania wszelkich nieścisłości w tych danych. Masz również prawo do sprzeciwu względem naszego przechowywania Twoich danych, w przypadku którego usuniemy Twoje dane, a także prawo do wycofania Twojej zgody na przetwarzanie Twoich prywatnych danych w oparciu o tę politykę, w przypadku którego usuniemy również Twoje prywatne dane.
 
-## Who to contact
+## Z kim się kontaktować
 
-If you have questions about our use of your data, would like to
-request a copy of all information we have stored about you, or
-would like to talk to our Data Protection Officer for any other
-purpose, our appointed Data Protection Officer is the FSFE's
-executive director, whom you can contact at [executive-director@fsfe.org](mailto:executive-director@fsfe.org).
+Jeśli masz pytania na temat tego jak używamy Twoich danych, chcesz uzyskać kopie wszystkich informacji które przechowujemy na Twój temat, bądź chcesz porozmawiać z naszym Oficerem ds. Ochrony Danych z jakiegokolwiek innego powodu, naszym Oficerem ds. Ochrony Danych jest wykonawczy dyrektor FSFE z którym możesz skontaktować się pod adresem [executive-director@fsfe.org (mailto:executive-director@fsfe.org).
