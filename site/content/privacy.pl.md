@@ -1,41 +1,23 @@
 ---
-title: "Privacy Policy"
+title: "Polityka prywatności"
 type: "page"
 layout: "subpage"
 ---
 
-The **publiccode.eu** web site is run by the
+Stronę **publiccode.eu** prowadzi.
 [FSFE e.V.](https://fsfe.org/about/legal/imprint.html)
-When this policy refers to "we", this means the FSFE.
+W poniższym dokumencie, gdy używamy słowa "my" mamy na myśli FSFE.
 
-## What we collect and why
+## Jakie dane zbieramy i dlaczego
+Gdy użyjesz niniejszej strony do podpisania listu otwartego, zaczniemy przechowywać Twoje imię, nazwisko, adres email, oraz państwo zamieszkania. Jeśli wyrazisz na to zgodę, wyświetlimy publicznie Twoje imię i nazwisko jako sygnatariusza listu otwartego pod adresem [list of signatures](/openletter/all-signatures). Poza tym, udostępnimy Twoje imię i nazwisko oraz państwo zamieszkania odbiorcom listu otwartego (członkom Parlamentu Europejskiego oraz parlamentów regionalnych i narodowych). Nie będziemy udostępniać Twojego adresu email. Dane te będziemy przechowywać w naszej bazie danych do końca trwania kampanii Puliczne Pieniądze - Publiczny Kod po czym zostaną one usunięte.
 
-When you use the website to sign our open letter, we collect
-and store information about your name, e-mail address and country,
-which you have provided with your consent. We will publicly
-show your name as a signee to the open letter if you consented 
-to publicly show name in the [list of 
-signatures](/openletter/all-signatures). We will also
-provide your name and country to the recipients of the open
-letter (members of the European Parliament and national or
-regional parliaments). We will not share your e-mail address.
-We store this information in a database for the duration of the
-Public Money - Public Code campaign and remove it afterwards.
+Jeśli wyrazisz zgodę na kontakt w sprawie kampani, wykorzystamy Twój adres email do wysyłania Ci informacji na jej temat w trakcie jej trwania oraz niezwłocznie po jej zakończeniu.
 
-If you have consented to being contacted about the campaign, we
-will use your e-mail address to send you information about the
-campaign during and immediately after the campaign. 
+## Kto ma dostęp do przechowywanych danych
 
-## Who has access to stored data
+Do danych wysłane za pomocą niniejszej strony, przechowywanych na serwerach bądź w naszym systemie zgłoszeń mają dostęp pracownicy oraz stażyści FSFE oraz administratorzy systemu. Dane te są przechowywane na serwerach w formie niezaszyfrowanej, co oznacza że ma do nich dostęp również personel PlusServer GmbH - naszego dostawcy usług hostingowych.
 
-All information submitted through the website, whether stored
-on the webserver or in our issue system, is available to FSFE
-staff and interns. The information is also available to FSFE's
-system administrator team. Information is stored unencrypted on
-our servers, which means the information is also available to
-staff of PlusServer GmbH where our servers are hosted. 
-
-## What your rights are
+## Twoje prawa
 
 You have the right to receive the personal data we have stored
 about you, as well as the right to instruct us to rectify it if
