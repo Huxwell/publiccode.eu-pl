@@ -1,0 +1,126 @@
+# == POLISH ==
+
+# General strings
+[Languages.pl]
+  languageCode  = "pl"
+  languageName  = "Polish"
+  description   = "Publiczne Pieniądze, Pubczliny Kod - Kampania na rzecz wypuszczenia publicznie finansowanego oprogramowania jako Wolne Oprogramowanie"
+  fsdefinition  = "Wolne Oprogramowanie daje każdemu prawo do używania, studiowania, współdzielenia oraz ulepszania oprogramowania. To prawo ułatwia gwarantowanie innych wolności podstawowywch, takich jak wolność mowy, prasy i prywatności."
+
+
+# Navigation
+[Languages.pl.navigation]
+[Languages.pl.navigation.links]
+  start     = "Start"
+  about     = "O kampanii"
+  arguments = "Argumenty"
+  action    = "Podejmij akcję"
+  spread    = "Nieś nowinę"
+
+
+# Start banner
+[Languages.pl.start]
+  subtitle1   = "Dlaczego oprogramowanie tworzone za pieniądze podatników nie jest wypuszczane jako Wolne Oprogramowanie?"
+  subtitle2   = "Domagamy się legistacji stawiającej wymóg, aby publicznie finansowane oprogramowanie tworzone dla sektora publicznego było publicznie dostępne jako [Wolne i Otwarte Oprogramowanie](https://fsfe.org/freesoftware/basics/summary.html 'Wolne Oprogramowanie daje każdemu prawo do używania, studiowania, współdzielenia oraz ulepszania oprogramowania. To prawo ułatwia gwarantowanie innych wolności podstawowywch, takich jak wolność mowy, prasy i prywatności.'). Skoro to są publiczne pieniądze, kod również powinien być publiczny."
+  subtitle3   = "**Kod opłacony przez lud powinien być dostępny dla ludu!**" 
+
+
+# About section
+[Languages.pl.about]
+  headline    = "Brzmi skomplikowanie? Nie jest. To wszystko jest bardzo proste!"
+  buttonText  = "Więcej zalet"
+
+
+# Arguments section
+[Languages.pl.arguments]
+  headline    = "Dlaczego Publiczny Kod"
+  followup    = "Wierzysz, że Otwarte Oprogramowanie powinno być domyślną opcją dla publicznie finansowanego oprogramowania? **Przekonajmy do tego Twoich politycznych reprezentantów!**"
+  buttonText  = "Sign the Open Letter"
+[[Languages.pl.arguments.list]]
+  icon        = "fa-eur"  # <-- do not translate this
+  title       = "Oszczędności podatkowe"
+  description = "Podobne aplikacje nie muszą być programowane od podstaw za każdym razem."
+[[Languages.pl.arguments.list]]
+  icon        = "fa-handshake-o"  # <-- do not translate this
+  title       = "Współpraca"
+  description = "Prace nad najważniejszymi inwestycjami i projektami mogą dzielić się wiedzą oraz kosztami."  
+[[Languages.pl.arguments.list]]
+  icon        = "fa-users"  # <-- do not translate this
+  title       = "Służenie społeczeństwu"
+  description = "Aplikacje opłacane przez społeczeństwo powinny być dostępne dla wszystkich.."
+[[Languages.pl.arguments.list]]
+  icon        = "fa-lightbulb-o"  # <-- do not translate this
+  title       = "Sprzyjanie innowacjom"
+  description = "Przy przejrzystych procesach, inni nie muszą ponownie wymyślać koła."
+
+
+# Action section
+[Languages.pl.action]
+  headline      = "Poinformuj swoich reprezentantów!"
+  intro         = "W naszym [**liście otwartym**](openletter/) domagamy się:" 
+  # In "demand", please use curly quotation marks for the demand. Otherwise the build might fail: https://en.wikipedia.org/wiki/Quotation_mark
+  demand        = "“wprowadzenia legistacji stawiającej wymóg, aby publicznie finansowane oprogramowanie tworzone dla sektora publicznego było publicznie dostępne jako  [Wolne i Otwarte Oprogramowanie](https://fsfe.org/freesoftware/basics/summary.html 'Wolne Oprogramowanie daje każdemu prawo do używania, studiowania, współdzielenia oraz ulepszania oprogramowania. To prawo ułatwia gwarantowanie innych wolności podstawowywch, takich jak wolność mowy, prasy i prywatności').”"
+  description   = "**$ORGS** organizacje oraz **$INDS** osoby prywatne wspierają ten apel - podpisały nasz [list otwarty](openletter/). Mozesz pomóc nam wywrzeć większy impakt również go podpisując! Przekarzemy wszystkie podpisy reprezentantom którzy debatują na temat wolności oprogramowania w administracji publicznej w całej Europie."
+
+[Languages.pl.action.box]
+  text      = "Już **$INDS PODPISÓW** – podpisz list otwarty teraz!"
+
+[Languages.pl.action.form]
+  name      = "Imię i Nazwisko (required)"
+  email     = "Email (required)"
+  country   = "Twój kraj"
+  zip       = "Kod zip"
+  comment   = "Twój komentarz (maks. 140 znaków)"
+  permPriv  = "Przeczytałem i akceptuję [politykę prywatności](privacy/)"
+  permNews  = "Chcę być informowany w przyszłości o postępach tej kampanii"
+  permPub   = "Chcę, żeby mój podpis był widoczny w [liście sygnatariuszy](openletter/all-signatures)"
+  submit    = "Podpisz teraz!"
+
+
+# Organisations section
+[Languages.pl.organisations]
+  headline  = "Organizacje wspierące"
+  text      = "Następująće organizacje wsparły już nasz [list otwarty](openletter/). Jeśli Twoja organizacja również jest zainteresowana dołączeniem do apelu o Publiczny Kod, prosimy [skontaktuj się z nami](mailto:contact@fsfe.org)."
+
+
+# Spread the word section
+[Languages.pl.spread]
+  headline          = "Nieś nowinę!!"
+  promoText         = "Zamów najnowsze naklejki i Order the latest stickers and ulotki od FSFE"
+  promoButtonText   = "Uzyskaj materiały promocyjne"
+  shareText         = "Powiedz swoim znajomym oraz subskrybentom o Publicznym Kodzie:"
+  defaultSocialText = "Jeśli to publiczne pieniądze, to powinien być także publiczny kod.  Wspieram ten apel o więcej publicznego kodu pod licencją Wolnego Oprogramowania:"
+
+
+# Legal Section
+[Languages.pl.legal]
+  by            = "Kampanię prowadzi Free Software Foundation Europe"
+  imprint       = "Wydawca"
+  privacy       = "Prywatnosć"
+  transparency  = "Transparency"
+  contribute1   = "Kod tej strony jest Wolym Oprogramowaniem." 
+  contribute2   = "Zapraszamy do wsparcia!"
+  license       = "Ta strona jest udostępniana pod licencją [Creative Commons BY-SA 4.0 Licence](http://creativecommons.org/licenses/by-sa/4.0/)."
+
+
+# Language selection
+[Languages.pl.language]
+  description = "Przeczytaj tę stronę w innym języku"
+
+
+# 404 Error Page
+[Languages.pl.error]
+  headline    = "Błąd 404 - podstrona nie znaleziona"
+  description = "Strona której szukasz nie istnieje."
+  button      = "Powróć do strony startowej"
+
+
+# Specific sub-pages
+[Languages.pl.subpage]
+[Languages.pl.subpage.signatures]
+  headline      = "Indywidualni Sygnatairusze Listu Otwartego"
+  description   = "Poniżej są podpisy sygnatariuszy, którzy zgodzili się na opublikowanie ich personaliów. Bądź jednym z nich!"
+  allSignatures = "Zbacz [all public signatures](all-signatures/)."
+  tableName     = "Imię i nazwisko"
+  tableCountry  = "Kraj"
+  tableComment  = "Komentarz"
