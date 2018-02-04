@@ -4,9 +4,10 @@ type: page
 layout: subpage
 ---
 
-This is the complete list of all the people who signed the open letter and agreed to have their names made public. {{< count type="signatures" >}} people have expressed their support already – are you one of them?
+Poniższa lista zawiera wszystkie osoby, które podpisały list i wyraziły zgodę na publikowanie ich personaliów.
+{{< count type="signatures" >}} osób już poparło naszą akcję - czy jesteś pośród nich?
 
-The list is updated hourly.
+Lista jest aktualizowana co godzinę.
 
 {{< show_signatures >}}
 
